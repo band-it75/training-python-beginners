@@ -1,4 +1,9 @@
 # Run the Function Locally
 
-1. Use Azure Functions Core Tools to start the app with `func start`.
-2. Open the browser at the displayed URL to view the Swagger docs.
+1. In a terminal run the Azure Functions host:
+   ```bash
+   func start
+   ```
+2. When the host prints a URL, open it and append `/api/apidocs` to access the
+   Swagger UI.
+3. Running locally ensures the function wrapper works before deploying.
