@@ -24,4 +24,8 @@ Automate testing and deployment so releases are repeatable and reliable.
 
 Every push triggers a pipeline that tests the code and deploys the function app.
 
-Detailed instructions are in [01-github-actions-ci-cd.md](01-github-actions-ci-cd.md).
+### Steps
+
+1. [01-create-workflow-file.md](01-create-workflow-file.md)
+2. [02-create-azure-pipeline.md](02-create-azure-pipeline.md)
+3. [03-trigger-pipeline.md](03-trigger-pipeline.md)

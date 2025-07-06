@@ -24,4 +24,8 @@ Add authentication so only authorised clients can access the API.
 
 Endpoints require JWTs locally and rely on EasyAuth when deployed.
 
-See [01-add-jwt-security.md](01-add-jwt-security.md) for steps.
+### Steps
+
+1. [01-install-pyjwt.md](01-install-pyjwt.md)
+2. [02-add-jwt-decorator.md](02-add-jwt-decorator.md)
+3. [03-configure-easyauth.md](03-configure-easyauth.md)

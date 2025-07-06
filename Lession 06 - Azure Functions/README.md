@@ -26,4 +26,8 @@ Deploy the Flask API as a serverless application that scales automatically.
 
 The API runs as an Azure Function locally with Swagger UI available.
 
-See [01-wrap-as-azure-function.md](01-wrap-as-azure-function.md) for details.
+### Steps
+
+1. [01-install-packages.md](01-install-packages.md)
+2. [02-wrap-as-azure-function.md](02-wrap-as-azure-function.md)
+3. [03-run-locally.md](03-run-locally.md)
