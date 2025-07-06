@@ -30,6 +30,11 @@ Verify that Python runs correctly and introduce the basic exercise workflow.
 
 Running `python main.py` prints the greeting so students know their setup works.
 
+## Running the Example
+
+Use `setup-venv.ps1` to create a virtual environment and install requirements.
+After that, execute `run.ps1` to start the program.
+
 ### Steps
 
 1. [01-build-hello-world.md](01-build-hello-world.md)
