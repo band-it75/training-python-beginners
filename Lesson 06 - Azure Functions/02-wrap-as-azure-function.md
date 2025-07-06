@@ -12,3 +12,10 @@
    ```
 3. `WsgiMiddleware` allows Azure Functions to invoke the Flask app, while
    `Swagger` provides interactive docs at `/api/apidocs`.
+
+## Why this step?
+
+This wrapper bridges the gap between Flask and the Azure Functions runtime.
+Adding Swagger gives you a ready-made UI to explore the API once deployed.
+## Theory example
+`WsgiMiddleware` adapts a WSGI-compatible app so the Functions runtime can call it. Swagger reads comments and annotations to generate API documentation.

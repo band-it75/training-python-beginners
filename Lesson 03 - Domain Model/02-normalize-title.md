@@ -11,3 +11,11 @@
        self.title = normalize_title(self.title)
    ```
 4. Normalising here means every `Task` instance stores a consistent title.
+
+## Why this step?
+
+Cleaning the title as soon as the object is created prevents messy data from
+creeping into later operations. Placing this logic in `__post_init__` keeps
+the class easy to use without extra calls.
+## Theory example
+`__post_init__` runs immediately after the dataclass-generated `__init__`. It's the ideal place for validation or normalisation logic.

@@ -24,3 +24,11 @@
    ```
 3. Configure the secrets `AZURE_FUNCTIONAPP_NAME` and `AZURE_CREDENTIALS` in the
    repository so the action can deploy your function app.
+
+## Why this step?
+
+Automated workflows ensure tests run and the app deploys the same way every
+time code is pushed. Storing credentials as secrets keeps them out of the
+repository while still enabling deployment.
+## Theory example
+Continuous Integration servers clone the repository into a fresh environment for each run. This guarantees that builds do not rely on artefacts from previous runs.

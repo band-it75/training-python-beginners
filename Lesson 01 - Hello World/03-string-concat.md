@@ -26,3 +26,11 @@ Learn different ways to join text together.
        return f"What TaskMate – Hello, {normalize_title(name)}!"
    ```
    The helper validates the input and formats the name consistently.
+
+## Why this step?
+
+String concatenation and f-strings are used frequently when producing
+messages. Encapsulating the greeting logic in a helper keeps future
+examples focused on new concepts rather than repeated boilerplate.
+## Theory example
+The `+` operator builds a new string from fragments, which can be inefficient in loops. F-strings evaluate expressions and produce a single formatted result.

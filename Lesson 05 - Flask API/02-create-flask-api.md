@@ -23,3 +23,11 @@
        return jsonify([task.__dict__ for task in tasks])
    ```
 3. The API reuses the `Task` dataclass and logs how long task creation takes.
+
+## Why this step?
+
+By exposing our domain model through HTTP we enable other applications to
+interact with it. The timed decorator lets us monitor performance without
+cluttering the endpoint code.
+## Theory example
+Flask uses decorators such as `@app.post` to register functions as handlers for HTTP endpoints. Each route function returns a response object or data that Flask converts to JSON.

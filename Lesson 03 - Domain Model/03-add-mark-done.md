@@ -11,3 +11,11 @@
    ```
 2. The method toggles the `done` flag and logs the result, making status
    changes explicit when the code runs.
+
+## Why this step?
+
+Providing a clear `mark_done` method encapsulates state changes in one
+place. Logging the result helps during debugging and demonstrates how
+methods can report their own actions.
+## Theory example
+Methods attached to a class operate on the instance (`self`). They let each object manage its own behaviour in addition to storing data.

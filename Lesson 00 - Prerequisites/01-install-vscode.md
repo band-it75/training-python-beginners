@@ -14,3 +14,11 @@ If you have [winget](https://learn.microsoft.com/en-us/windows/package-manager/w
 ```powershell
 winget install -e --id Microsoft.VisualStudioCode
 ```
+
+## Why this step?
+
+Using VS Code gives us an editor with great Python support. Installing the
+extensions up front means features like IntelliSense and debugging work
+consistently throughout the course.
+## Theory example
+An integrated development environment (IDE) offers helpful features such as syntax highlighting and debugging. VS Code's extension system lets us tailor it for Python development.

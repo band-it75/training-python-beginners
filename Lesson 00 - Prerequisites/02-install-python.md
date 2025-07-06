@@ -17,3 +17,11 @@ On Windows systems you can also install Python with:
 ```powershell
 winget install -e --id Python.Python.3.11
 ```
+
+## Why this step?
+
+Python is the language used for all subsequent lessons. Installing the
+exact 3.11 series ensures everyone has a consistent runtime and avoids
+version‑specific surprises later on.
+## Theory example
+Python is an interpreted language, meaning the interpreter executes your code line by line. Version numbers denote language features and standard library updates.
