@@ -1,0 +1,15 @@
+trigger:
+- '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- checkout: self
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+- script: |
+    pip install -r "Lession 03 - Domain Model/source/requirements.txt"
+    pytest -q "Lession 03 - Domain Model/source/tests"
+  displayName: 'Run tests'
