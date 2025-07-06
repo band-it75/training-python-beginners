@@ -44,3 +44,6 @@ After that, execute `run.ps1` to start the program.
 5. [05-time-calculations.md](05-time-calculations.md)
 6. [06-task-duration.md](06-task-duration.md)
 7. [07-schedule-start.md](07-schedule-start.md)
+
+Each step file provides detailed instructions on how to create the
+corresponding Python module and why it is needed.
