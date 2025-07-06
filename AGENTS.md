@@ -1,6 +1,12 @@
 ## Source
 
-Keep source contents consistent, starting from the first lecture to the last lecture. This means that source files and tests already created should be present in subsequent lectures. They can be enhanced, modified and updated when it makes sense, but then it should clearly be commented why. 
+Keep source contents consistent, starting from the first lecture to the last lecture. This means that source files and tests already created should be present in subsequent lectures. They can be enhanced, modified and updated when it makes sense, but then it should clearly be commented why.
+
+Every lesson contains multiple step files (for example `01-build-hello-world.md`).
+Each of these step files **must** include detailed, step-by-step instructions on
+which files and folders to create, the code to place in each file, and the
+reason for it. Apply this approach consistently across all lessons so that
+participants can follow along without guessing any implementation details.
 
 
 ## Tests

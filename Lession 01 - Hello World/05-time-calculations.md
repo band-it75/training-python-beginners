@@ -1,6 +1,8 @@
 # Work with Time Calculations
 
-1. Create `time_example.py` using the `datetime` module.
+Measure how long an operation takes.
+
+1. Create `src/time_example.py` using the `datetime` module:
    ```python
    from datetime import datetime
 
@@ -10,4 +12,17 @@
    elapsed = end - start
    print(elapsed.total_seconds())
    ```
-2. Try adding a `sleep()` call to see the number change.
+   Add a `sleep()` call from the `time` module to see the value change.
+2. The finished lesson offers a helper that validates the timestamps:
+   ```python
+   from datetime import datetime
+
+   def elapsed_seconds(start: datetime, end: datetime) -> float:
+       """Return elapsed seconds between two timestamps."""
+       if start is None or end is None:
+           raise ValueError("start and end required")
+       if end < start:
+           raise ValueError("end before start")
+       return (end - start).total_seconds()
+   ```
+   Other modules import this function when they need to measure durations.
