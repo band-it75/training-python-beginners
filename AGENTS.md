@@ -22,6 +22,8 @@ source/
 ├── .github/
 │   └── workflows/
 │       └── ci-cd.yml          ← GH Actions
+├── setup-venv.ps1            ← create local venv
+├── run.ps1                   ← test then run main
 ├── app.py                     ← Flask API
 ├── auth.py                    ← JWT helpers
 ├── function_app.py            ← Azure Functions wrapper
@@ -40,3 +42,7 @@ When writing or updating files in any `requirements/` folder:
 - Focus on how the personas interact with the system and the value they receive.
 - Avoid mentioning specific file names or technologies unless essential for the user story.
 - Express acceptance criteria in Given/When/Then form and include both a positive and a negative scenario.
+
+## Environment
+
+Use **Python 3.11** for all code and pipelines as shown in Lesson 01.
