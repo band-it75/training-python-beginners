@@ -8,6 +8,9 @@ which files and folders to create, the code to place in each file, and the
 reason for it. Apply this approach consistently across all lessons so that
 participants can follow along without guessing any implementation details.
 
+Provide inline comments in short example code blocks (like `types_example.py`)
+to explain the purpose of each line.
+
 
 ## Tests
 

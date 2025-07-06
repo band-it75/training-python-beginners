@@ -20,3 +20,11 @@ Introduce a quick calculation using integers.
        return total - completed
    ```
    Later steps import this helper instead of repeating the math.
+
+## Why this step?
+
+Basic arithmetic often forms the core of more complex logic. Wrapping the
+calculation in a function lets us validate the inputs and reuse the code
+when we start building the task tracker.
+## Theory example
+Integers can be combined using operators like `+`, `-`, `*`, and `/`. Python automatically promotes to long integers so calculations won't overflow.

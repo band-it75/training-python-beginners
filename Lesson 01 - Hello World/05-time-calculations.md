@@ -26,3 +26,11 @@ Measure how long an operation takes.
        return (end - start).total_seconds()
    ```
    Other modules import this function when they need to measure durations.
+
+## Why this step?
+
+Many applications track how long operations take. Validating the start and
+end times prevents confusing negative durations, and using a helper keeps
+the timing logic in one place.
+## Theory example
+`datetime` objects represent a precise point in time. Subtracting two datetimes yields a `timedelta` that expresses the duration between them.
