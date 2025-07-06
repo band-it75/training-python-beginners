@@ -1,12 +1,14 @@
 # Python 3.11 “Task Tracker” Curriculum
 
+This curriculum implements a proof‑of‑concept (PoC) for the Kanban‑style task tracker described in [requirements.md](requirements.md).
+
 *A nine‑step red‑thread that grows a console script into a fully‑tested, JWT‑secured, continuously‑deployed Azure Functions API.*
 
 ## Folder Layout
 
-Each training lives in its own directory. This repository currently contains the
-`Lession xx - Name` training which is split into two sub-folders:
-- 'requirements/' - relevant user stories, based on the known personas - no technical user stories
+Each training lives in its own directory named `Lession 0X - <topic>`.
+Every lesson holds three sub‑folders and there are nine lessons in total:
+- `requirements/` – user stories drawn from the personas
 - `students/` – starting files for participants
 - `source/` – the completed reference solution
 
@@ -433,6 +435,18 @@ Push to **main** → tests run → on success, the workflow packages the whole r
 |  7   | pytest suite (local & mocked Azure) | Steps 1–6       |
 |  8   | JWT/EasyAuth security               | Steps 5–6       |
 |  9   | GitHub Actions CI/CD                | Steps 1–8       |
+
+## Functional Requirements Covered
+
+This PoC demonstrates a subset of the store task tracker features:
+
+- **FR‑1** Board and status columns
+- **FR‑2** Task fields implemented in the `Task` dataclass
+- **FR‑3** Create and assign tasks via the API
+- **FR‑7** Evidence upload before completing certain tasks
+- **FR‑12** Basic role‑based permissions
+
+See [requirements.md](requirements.md) for the complete specification.
 
 
 [1]: https://medium.com/mesh-ai-technology-and-engineering/writing-and-testing-azure-functions-in-the-v2-python-programming-model-c391bd779ff6?utm_source=chatgpt.com "Writing and Testing Azure Functions in the v2 Python Programming ..."
