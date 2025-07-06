@@ -11,11 +11,11 @@ participants can follow along without guessing any implementation details.
 
 ## Tests
 
-For all lessions, implement basic tests in the source/ examples, even when not being a part of the lession. Tests can be in Python and/or Powershell. 
+For all lessons, implement basic tests in the source/ examples, even when not being a part of the lesson. Tests can be in Python and/or Powershell.
 
 ## CI/CD
 
-For all lessions, implement basic CI/CD pipeline (YAML) in the source/ examples for both GitHub and AzureDevOps, even when not being a part of the lession.
+For all lessons, implement basic CI/CD pipeline (YAML) in the source/ examples for both GitHub and AzureDevOps, even when not being a part of the lesson.
 
 ## Azure Functions
 
@@ -23,7 +23,7 @@ For Azure functions, always use Swagger html/templates.
 
 ## Folder Layout
 
-Each training lives in its own directory named `Lession 0X - <topic>`.
+Each training lives in its own directory named `Lesson 0X - <topic>`.
 Every lesson holds three sub‑folders and there are nine lessons in total:
 - `requirements/` – user stories drawn from the personas
 - `students/` – starting files for participants
