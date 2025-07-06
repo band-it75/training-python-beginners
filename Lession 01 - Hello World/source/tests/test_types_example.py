@@ -2,7 +2,9 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 import pytest
-from types_example import get_value_types
+
+from src.types_example import get_value_types
+
 
 
 def test_get_value_types_defaults():

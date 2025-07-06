@@ -3,7 +3,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 import pytest
 from datetime import datetime, timedelta
-from time_example import elapsed_seconds, format_duration
+
+from src.time_example import elapsed_seconds, format_duration
+
 
 
 def test_elapsed_seconds():

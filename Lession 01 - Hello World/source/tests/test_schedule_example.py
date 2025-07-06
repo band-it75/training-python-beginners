@@ -3,7 +3,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 import pytest
 from datetime import datetime, timedelta
-from schedule_example import schedule_next
+
+from src.schedule_example import schedule_next
+
 
 
 def test_schedule_next():

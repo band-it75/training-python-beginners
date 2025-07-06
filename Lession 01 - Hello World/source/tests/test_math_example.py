@@ -2,7 +2,8 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 import pytest
-from math_example import remaining_tasks
+from src.math_example import remaining_tasks
+
 
 
 def test_remaining_tasks():
