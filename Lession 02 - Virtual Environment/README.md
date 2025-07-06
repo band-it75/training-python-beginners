@@ -16,8 +16,6 @@ Isolate project dependencies so everyone works with the same package versions.
 
 ## Personas Involved
 
-- Retail Staff
-- Store Manager
 
 ## Expected Outcome
 
