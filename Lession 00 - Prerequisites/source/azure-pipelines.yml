@@ -1,0 +1,13 @@
+trigger:
+- '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- checkout: self
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+- script: pwsh "Lession 00 - Prerequisites/source/tests/verify-prerequisites.ps1"
+  displayName: 'Run verify prerequisites'
