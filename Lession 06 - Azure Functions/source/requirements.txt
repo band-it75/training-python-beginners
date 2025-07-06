@@ -1,0 +1,9 @@
+# core dependencies (if any)
+Werkzeug<3
+Flask>=2.3,<3.0
+flasgger>=0.9,<1.0
+azure-functions>=1.17,<2.0
+# e.g. click==8.1.3
+
+# dev / test dependencies
+pytest>=7.0,<8.0
