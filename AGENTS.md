@@ -1,3 +1,7 @@
+## Source
+
+Keep source contents consistent, starting from the first lecture to the last lecture. This means that source files and tests already created should be present in subsequent lectures. They can be enhanced, modified and updated when it makes sense, but then it should clearly be commented why. 
+
 
 ## Tests
 
