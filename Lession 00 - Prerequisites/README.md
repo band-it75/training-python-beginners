@@ -1,6 +1,29 @@
 # Lesson 00 – Prerequisites
 
-These steps prepare your workstation for the rest of the course. Follow each document in order and use the accompanying PowerShell scripts where provided.
+Before writing any code we need a reliable toolchain. This lesson walks through
+installing **Visual Studio Code**, **Python 3.11** and **Git**. You will also
+set up your Git credentials and confirm that each command works via the provided
+PowerShell scripts. When done you should be able to open the project in VS Code
+and run `python --version` and `git --version` from a terminal.
+
+## Purpose of Lesson
+
+Ensure every participant has a working local development environment configured
+for the rest of the course.
+
+## Technologies Used
+
+- Visual Studio Code
+- Python 3.11
+- Git
+
+## Personas Involved
+
+No end-user personas are involved in this setup step.
+
+## Expected Outcome
+
+All required tools are installed and verified so coding can begin immediately.
 
 1. [Install VSCode](01-install-vscode.md)
 2. [Install Python 3.11](02-install-python.md)
