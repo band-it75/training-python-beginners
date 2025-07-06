@@ -1,2 +1,4 @@
+from src.utils import normalize_title
 
-print ("hello world")
+if __name__ == "__main__":
+    print(f"What TaskMate – Hello, {normalize_title('world')}!")
