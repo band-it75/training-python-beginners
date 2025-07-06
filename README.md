@@ -5,15 +5,15 @@
 ## Folder Layout
 
 Each training lives in its own directory. This repository currently contains the
-`task_tracker` training which is split into two sub-folders:
-
+`Lession xx - Name` training which is split into two sub-folders:
+- 'requirements/' - relevant user stories, based on the known personas - no technical user stories
 - `students/` – starting files for participants
 - `source/` – the completed reference solution
 
-All user stories are listed under `requirements/<training>/`.
+
 
 ```
-task_tracker/
+source/
 ├── .github/
 │   └── workflows/
 │       └── ci-cd.yml          ← GH Actions (Step 9)
