@@ -6,8 +6,8 @@ import pytest
 from src.greetings import greet
 
 def test_greet():
-    assert greet("sofia") == "What TaskMate – Hello Sofia"
+    assert greet("sofia") == "What TaskMate – Hello, Sofia!"
 
 def test_greet_missing():
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="Name required"):
         greet("")
