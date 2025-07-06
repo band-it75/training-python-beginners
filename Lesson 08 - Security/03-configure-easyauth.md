@@ -6,3 +6,10 @@
    to validate JWTs with the same signing key.
 3. This combination secures the API both during development and after
    deployment.
+
+## Why this step?
+
+Requiring JWTs locally mirrors the security settings used in Azure. Testing
+authentication early helps avoid surprises when you deploy the function.
+## Theory example
+EasyAuth intercepts HTTP requests before they reach your app, verifying the token and attaching user information to the request headers.

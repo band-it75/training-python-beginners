@@ -22,3 +22,11 @@
    ```
 3. The decorator rejects requests without a valid JWT so only authorised
    clients can call the API.
+
+## Why this step?
+
+Placing authentication logic in a decorator keeps the endpoints clean while
+still enforcing security. Using JWT lets the server verify callers without
+storing session state.
+## Theory example
+JWTs carry a signature generated with a secret key. When you decode the token with the same key, you can trust the claims haven't been tampered with.

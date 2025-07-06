@@ -22,4 +22,12 @@ Determine a future start time.
            now = datetime.now()
        return now + timedelta(minutes=minutes_from_now)
    ```
-   Other steps import it whenever they need to plan ahead.
+  Other steps import it whenever they need to plan ahead.
+
+## Why this step?
+
+Scheduling is a core feature of a task manager. By isolating the logic for
+calculating future start times we make it easier to test and reuse across
+the application.
+## Theory example
+`timedelta` represents a duration rather than a moment in time. Adding it to a `datetime` produces a new timestamp in the future.

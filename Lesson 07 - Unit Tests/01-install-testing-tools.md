@@ -7,3 +7,11 @@
    ```
 3. Add `pytest` and `pytest-mock` to `requirements.txt` so the pipeline installs
    them during CI.
+
+## Why this step?
+
+Testing tools help us verify behaviour automatically. Keeping them in the
+requirements file means our CI system and every developer run the same test
+suite.
+## Theory example
+`pytest` finds tests by filename and function name patterns. Plugins like `pytest-mock` extend its capabilities for specific scenarios.

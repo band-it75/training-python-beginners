@@ -3,13 +3,14 @@
 Explore how Python represents common values.
 
 1. Inside the `src` folder create `types_example.py` and declare a few
-   variables:
+   variables, adding inline comments that explain what each one
+   represents:
    ```python
-   task_id = 1
-   task_title = "Open Store"
-   urgent = True
-   durations = [1.0, 2.5, 3.0]
-   lookup = {1: "Open Store"}
+   task_id = 1              # numeric identifier for the task
+   task_title = "Open Store"  # short description
+   urgent = True           # indicates if the task is urgent
+   durations = [1.0, 2.5, 3.0]  # estimated durations in hours
+   lookup = {1: "Open Store"}    # maps ids to titles
    ```
    Add a short script to print each variable and its `type()`:
    ```python
@@ -26,5 +27,18 @@ Explore how Python represents common values.
        """Return sample values and their types."""
        if values is None:
            values = [1, "Open Store", True, [1.0, 2.5, 3.0], {1: "Open Store"}]
-       return [(v, type(v)) for v in values]
-   ```
+return [(v, type(v)) for v in values]
+```
+
+## Why this step?
+
+Understanding the built‑in data types helps you predict how Python will
+handle values in later examples. Turning the prints into a function also
+keeps repeated code tidy.
+## Theory example
+- **int** stores whole numbers.
+- **str** holds text encoded in Unicode.
+- **bool** represents truth values, either `True` or `False`.
+- **list** collects items in order.
+- **dict** maps keys to values.
+These types form the building blocks for more complex structures.

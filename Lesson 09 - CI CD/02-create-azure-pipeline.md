@@ -24,3 +24,11 @@
    ```
 2. Define variables `AZURE_FUNCTIONAPP_NAME` and `AZURE_CREDENTIALS` in the
    pipeline settings so the deployment step can authenticate.
+
+## Why this step?
+
+Azure DevOps offers a similar pipeline experience to GitHub Actions. Having
+both examples shows how CI/CD concepts transfer across tools and lets you
+choose the platform that fits your team.
+## Theory example
+Pipeline YAML defines a series of tasks executed on a hosted agent. Variables allow you to swap out values like resource names without editing the YAML.

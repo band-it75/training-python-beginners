@@ -11,3 +11,11 @@
        ...
    ```
 3. Run `python main.py` and complete a task to see how long the call took.
+
+## Why this step?
+
+Applying the decorator shows how easily cross-cutting concerns like timing
+can be added. It also demonstrates that decorators do not alter the method
+signature, keeping the rest of the code unchanged.
+## Theory example
+Decorators can stack. If multiple decorators wrap a function, they execute in reverse order of appearance, each layering behaviour on top of the other.

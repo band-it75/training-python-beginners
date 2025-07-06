@@ -12,3 +12,11 @@
    Flask and Azure Function entry points using fixtures from `pytest-mock`.
 3. Organising tests this way keeps the suite easy to maintain and lets CI catch
    regressions automatically.
+
+## Why this step?
+
+Writing tests forces us to think about expected behaviour and guards against
+future changes breaking existing features. Using pytest-mock simplifies
+testing code that relies on external services.
+## Theory example
+A unit test focuses on a single function or method in isolation. Mock objects replace real dependencies so you can assert behaviour without calling external systems.

@@ -17,3 +17,11 @@ Set up the first files and confirm Python runs correctly.
        print(f"What TaskMate – Hello, {normalize_title('world')}!")
    ```
 3. Run `python main.py` to see **What TaskMate – Hello, World!** printed.
+
+## Why this step?
+
+Starting with a tiny program verifies your editor and Python setup work.
+Placing the `normalize_title` helper in its own module demonstrates how we
+organise code for reuse throughout the course.
+## Theory example
+Python executes the code under `if __name__ == "__main__"` when you run the file directly. This pattern lets modules provide reusable functions and a standalone script.

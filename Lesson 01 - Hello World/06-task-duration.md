@@ -26,4 +26,12 @@ Format a time delta into minutes and seconds.
        minutes, secs = divmod(seconds, 60)
        return f"{int(minutes)}m {int(secs)}s"
    ```
-   It calls `elapsed_seconds` from the previous step and validates the result.
+It calls `elapsed_seconds` from the previous step and validates the result.
+
+## Why this step?
+
+Formatting durations into minutes and seconds makes the output easy to read.
+Using the shared helper centralises error handling so later modules stay
+focused on their own logic.
+## Theory example
+`divmod` returns both the quotient and remainder of a division. It's handy for converting total seconds into minutes and seconds without extra calculations.
