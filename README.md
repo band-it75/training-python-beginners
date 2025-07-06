@@ -4,7 +4,7 @@
 This repository provides a hands‑on path for building a small Kanban style task tracker called **What TaskMate**. The goal is to guide beginners through the full development lifecycle using Python 3.11 and Azure Functions. Two personas drive the requirements: the **Retail Staff** who complete daily tasks on the store floor, and the **Store Manager** who creates and monitors those tasks.
 
 ## Methods
-Each lesson lives in a folder named `Lession 0X - <topic>` and contains:
+Each lesson lives in a folder named `Lesson 0X - <topic>` and contains:
 - `requirements/` with short user stories.
 - `students/` starter files for participants.
 - `source/` a complete reference solution.

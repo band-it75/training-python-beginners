@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    paths: [ '**/source/**' ]
+  pull_request:
+    paths: [ '**/source/**' ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install -r "Lesson 04 - Diagnostics Decorator/source/requirements.txt"
+      - run: pytest -q "Lesson 04 - Diagnostics Decorator/source/tests"
