@@ -370,7 +370,7 @@ Because EasyAuth injects validated claims into headers (`X‑MS‑CLIENT‑PRINC
 
 ---
 
-## Step 9 · CI/CD with **GitHub Actions**
+## Step 9 · CI/CD with **GitHub Actions** or **Azure DevOps**
 
 ### 9.1 Create `.github/workflows/ci-cd.yml`
 
@@ -422,6 +422,10 @@ jobs:
 
 Push to **main** → tests run → on success, the workflow packages the whole repo and deploys it to the Function App. If the Functions list appears empty after deployment, verify that your build produces *function\_app.py* at the repo root and that the Actions runner uses **Core Tools v4** (default) ([learn.microsoft.com][4]).
 
+### 9.2 Create `azure-pipelines.yml`
+
+A similar pipeline in Azure DevOps sets up Python, runs the tests and publishes the function app using the **AzureFunctionsApp** task. Configure the same secrets as pipeline variables and trigger on `main`.
+
 ## Recap
 
 | Step | Outcome                             | Builds on       |
@@ -434,7 +438,7 @@ Push to **main** → tests run → on success, the workflow packages the whole r
 |  6   | Azure Functions wrapper + Swagger   | Steps 1–5       |
 |  7   | pytest suite (local & mocked Azure) | Steps 1–6       |
 |  8   | JWT/EasyAuth security               | Steps 5–6       |
-|  9   | GitHub Actions CI/CD                | Steps 1–8       |
+|  9   | CI/CD pipeline (GitHub Actions/Azure DevOps) | Steps 1–8       |
 
 ## Functional Requirements Covered
 
