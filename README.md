@@ -4,6 +4,14 @@
 
 ## Folder Layout
 
+Each training lives in its own directory. This repository currently contains the
+`task_tracker` training which is split into two sub-folders:
+
+- `students/` – starting files for participants
+- `source/` – the completed reference solution
+
+All user stories are listed under `requirements/<training>/`.
+
 ```
 task_tracker/
 ├── .github/
