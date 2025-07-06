@@ -7,7 +7,7 @@ from main import main
 def test_main_output(capsys):
     # run main and capture output
     main()
-    captured = capsys.readouterr().out
-    assert "What TaskMate" in captured
-    assert "Remaining tasks" in captured
-    assert "Next task starts at" in captured
+    captured = capsys.readouterr().out.splitlines()
+    assert captured[0] == "What TaskMate – Hello, World!"
+    assert any("Remaining tasks" in line for line in captured)
+    assert any("Next task starts at" in line for line in captured)
