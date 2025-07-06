@@ -5,6 +5,7 @@ import pytest
 from src.math_example import remaining_tasks
 
 
+
 def test_remaining_tasks():
     assert remaining_tasks(5, 2) == 3
 
