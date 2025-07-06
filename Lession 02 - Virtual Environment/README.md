@@ -23,4 +23,7 @@ Isolate project dependencies so everyone works with the same package versions.
 
 An activated virtual environment and a `requirements.txt` ready for future steps.
 
-Follow [01-create-venv.md](01-create-venv.md) for instructions.
+### Steps
+
+1. [01-create-venv.md](01-create-venv.md)
+2. [02-freeze-dependencies.md](02-freeze-dependencies.md)

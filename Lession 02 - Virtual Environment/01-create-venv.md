@@ -6,4 +6,3 @@
    - Windows: `.venv\Scripts\activate`
    - macOS/Linux: `source .venv/bin/activate`
 4. Upgrade pip with `python -m pip install --upgrade pip`.
-5. Generate `requirements.txt` using `pip freeze > requirements.txt`.

@@ -25,4 +25,7 @@ Introduce decorators and capture execution time for troubleshooting.
 
 Decorated functions log how long they take to run without modifying their code.
 
-Step‑by‑step details are in [01-add-timed-decorator.md](01-add-timed-decorator.md).
+### Steps
+
+1. [01-implement-timed-decorator.md](01-implement-timed-decorator.md)
+2. [02-apply-decorator.md](02-apply-decorator.md)
