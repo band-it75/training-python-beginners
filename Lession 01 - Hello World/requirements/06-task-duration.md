@@ -1,8 +1,15 @@
 # Display Task Duration
 
-As **Retail Staff**, I want the script to show minutes and seconds so that I know if I met the target time.
+**As a** Retail Staff member, **I want** the elapsed time to show minutes and seconds **so that** I know if I met the target.
 
 ## Acceptance Criteria
-- **Given** `time_example.py` with a timed section
-- **When** the script finishes
-- **Then** it prints the duration formatted as `Xm Ys`
+
+### Positive
+- **Given** the timer runs around a task
+- **When** it completes
+- **Then** the program prints the duration like `Xm Ys`
+
+### Negative
+- **Given** the calculated time is zero or negative
+- **When** the result is shown
+- **Then** the program warns that the timing is invalid

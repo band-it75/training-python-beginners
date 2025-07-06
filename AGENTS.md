@@ -33,3 +33,10 @@ source/
 ├── tests/                     ← pytest test‑suite
 └── utils.py                   ← helpers + @timed
 ```
+
+## Requirements
+
+When writing or updating files in any `requirements/` folder:
+- Focus on how the personas interact with the system and the value they receive.
+- Avoid mentioning specific file names or technologies unless essential for the user story.
+- Express acceptance criteria in Given/When/Then form and include both a positive and a negative scenario.

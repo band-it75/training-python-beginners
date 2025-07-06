@@ -1,8 +1,15 @@
 # Greeting with a Name
 
-As **Store Manager**, I want messages to include the employee name so that our tools feel friendly.
+**As a** Store Manager, **I want** the greeting to mention the employee's name **so that** our tools feel friendly.
 
 ## Acceptance Criteria
-- **Given** the `greetings.py` script
-- **When** I provide a name
-- **Then** it prints `What TaskMate – Hello <name>`
+
+### Positive
+- **Given** I supply my name
+- **When** the greeting runs
+- **Then** I see `What TaskMate – Hello <name>`
+
+### Negative
+- **Given** I start the greeting without a name
+- **When** it runs
+- **Then** it prompts me to enter one
