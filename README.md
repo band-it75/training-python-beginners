@@ -1,6 +1,6 @@
-# Python 3.11 “Task Tracker” Curriculum
+# Python 3.11 “What TaskMate” Curriculum
 
-This curriculum implements a proof‑of‑concept (PoC) for the Kanban‑style task tracker described in [requirements.md](requirements.md).
+This curriculum implements a proof‑of‑concept (PoC) for the Kanban‑style Retail Task Tracker, **What TaskMate**, described in [requirements.md](requirements.md).
 
 *A nine‑step red‑thread that grows a console script into a fully‑tested, JWT‑secured, continuously‑deployed Azure Functions API.*
 
@@ -43,8 +43,8 @@ def normalize_title(raw: str) -> str:
     """
     Trim whitespace and capitalise each word.
 
-    >>> normalize_title("   learn   python  ")
-    'Learn Python'
+    >>> normalize_title("   restock   shelves  ")
+    'Restock Shelves'
     """
     return " ".join(raw.strip().title().split())
 ```
@@ -54,7 +54,7 @@ def normalize_title(raw: str) -> str:
 from utils import normalize_title
 
 def main() -> None:
-    msg = normalize_title("  task tracker – hello, world! ")
+    msg = normalize_title("  what taskmate – hello, world! ")
     print(msg)
 
 if __name__ == "__main__":
@@ -65,7 +65,7 @@ Run:
 
 ```bash
 python main.py
-# → Task Tracker – Hello, World!
+# → What TaskMate – Hello, World!
 ```
 
 ---
@@ -73,7 +73,7 @@ python main.py
 ## Step 2 · Project Isolation with **venv**
 
 ```bash
-cd task_tracker
+cd what_taskmate
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
@@ -417,7 +417,7 @@ jobs:
 
 > *Secrets needed*
 >
-> * **`AZURE_FUNCTIONAPP_NAME`** – e.g., `tasktracker-demo-func`
+> * **`AZURE_FUNCTIONAPP_NAME`** – e.g., `whattaskmate-demo-func`
 > * **`AZURE_CREDENTIALS`** – output of `az ad sp create-for-rbac --sdk-auth ...`
 
 Push to **main** → tests run → on success, the workflow packages the whole repo and deploys it to the Function App. If the Functions list appears empty after deployment, verify that your build produces *function\_app.py* at the repo root and that the Actions runner uses **Core Tools v4** (default) ([learn.microsoft.com][4]).
@@ -438,7 +438,7 @@ Push to **main** → tests run → on success, the workflow packages the whole r
 
 ## Functional Requirements Covered
 
-This PoC demonstrates a subset of the store task tracker features:
+This PoC demonstrates a subset of the features of What TaskMate for retail stores:
 
 - **FR‑1** Board and status columns
 - **FR‑2** Task fields implemented in the `Task` dataclass
