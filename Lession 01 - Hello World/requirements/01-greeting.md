@@ -1,8 +1,8 @@
 # Hello World Greeting
 
-As **Retail Staff**, I want to run a script that prints a greeting so that I know Python is installed correctly.
+**As a** Retail Staff member, **I want to** se a greeting when I start the What TaskMate **so that** I feel welcome.
 
 ## Acceptance Criteria
-- **Given** a clean environment
-- **When** I execute `python main.py`
-- **Then** the console shows `What TaskMate – Hello, World!`
+- **Given** the What TaskMate is not running
+- **When** I start `python main.py`
+- **Then** the I will see `What TaskMate – Hello, World!`
