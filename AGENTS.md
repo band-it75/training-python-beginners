@@ -11,6 +11,10 @@ For all lessions, implement basic tests in the source/ examples, even when not b
 
 For all lessions, implement basic CI/CD pipeline (YAML) in the source/ examples for both GitHub and AzureDevOps, even when not being a part of the lession.
 
+## Azure Functions
+
+For Azure functions, always use Swagger html/templates.
+
 ## Folder Layout
 
 Each training lives in its own directory named `Lession 0X - <topic>`.

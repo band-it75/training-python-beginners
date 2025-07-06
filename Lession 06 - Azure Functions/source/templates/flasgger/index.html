@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ title }} v{{ flasgger_config.version }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('flasgger.static', filename='swagger-ui-clean.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ swagger_ui_css }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('flasgger.static', filename='custom-swagger.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('flasgger.static', filename='index.css') }}" />
+    <link rel="icon" type="image/jpeg" href="{{ url_for('flasgger.static', filename='ace-black-gold-500x500.jpg') }}" />
+  </head>
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="{{ swagger_ui_bundle_js }}"></script>
+    <script src="{{ swagger_ui_standalone_preset_js }}"></script>
+    <script src="{{ url_for('flasgger.static', filename='lib/jquery.min.js') }}" type="text/javascript"></script>
+    {% include 'flasgger/swagger.html' %}
+  </body>
+</html>
+ 

@@ -1,0 +1,45 @@
+.topbar {
+    background-color: #000;
+}
+.topbar-wrapper .link {
+    background: url('logo-gold.svg') no-repeat left center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 50px;
+}
+.topbar-wrapper .link img,
+.topbar-wrapper .link svg,
+.topbar-wrapper .link span {
+    display: none;
+}
+.topbar-wrapper .link span {
+    color: var(--ace-gold);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Brand colours for the download URL controls */
+.download-url-button {
+    background-color: var(--ace-gold) !important;
+    border-color: var(--ace-gold) !important;
+    color: var(--ace-white) !important;
+}
+.topbar .download-url-wrapper input[type=text],
+.topbar .download-url-wrapper select {
+    border-color: var(--ace-gold) !important;
+}
+/* Brand colours for HTTP methods */
+.opblock-summary-method {
+    background-color: var(--ace-gold) !important;
+    color: var(--ace-white) !important;
+}
+
+.opblock {
+    border-color: var(--ace-gold) !important;
+}
+.opblock-summary {
+    border-color: var(--ace-gold) !important;
+}
+
