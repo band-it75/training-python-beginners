@@ -24,6 +24,16 @@ Determine a future start time.
    ```
   Other steps import it whenever they need to plan ahead.
 
+3. Finally, show the scheduled time in `main.py` so the whole lesson runs
+   from start to finish:
+   ```python
+   from datetime import datetime
+   from src.schedule_example import schedule_next
+
+   next_time = schedule_next(30, now=datetime.now())
+   print("Next task starts at", next_time.strftime("%H:%M"))
+   ```
+
 ## Why this step?
 
 Scheduling is a core feature of a task manager. By isolating the logic for

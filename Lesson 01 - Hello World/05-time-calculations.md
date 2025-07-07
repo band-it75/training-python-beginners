@@ -27,6 +27,17 @@ Measure how long an operation takes.
    ```
    Other modules import this function when they need to measure durations.
 
+3. Edit `main.py` so you can check the new function. Use a start time of
+   `datetime.now()` and an end one second later:
+   ```python
+   from datetime import datetime, timedelta
+   from src.time_example import elapsed_seconds
+
+   start = datetime.now()
+   end = start + timedelta(seconds=1)
+   print(f"Elapsed: {elapsed_seconds(start, end)}s")
+   ```
+
 ## Why this step?
 
 Many applications track how long operations take. Validating the start and
