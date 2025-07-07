@@ -22,19 +22,19 @@ The curriculum builds the project in small increments:
 10. **CI/CD** – deploy the function app using GitHub Actions or Azure DevOps.
 
 ## Results
-By the end of the course learners will have a fully functioning API that implements key parts of the What TaskMate specification. The table summarises how each step builds on the last:
+By the end of the course learners will have a fully functioning API that implements key parts of the What TaskMate specification. The table summarises how each lecture builds on the last:
 
-| Step | Outcome                             | Builds on       |
+| Lecture | Outcome                             | Builds on       |
 | ---- | ----------------------------------- | --------------- |
 |  1   | Hello World & `normalize_title`     | –               |
 |  2   | Virtual environment                 | All future work |
-|  3   | `Task` dataclass                    | Step 1          |
-|  4   | `@timed` decorator                  | Steps 1–3       |
-|  5   | Flask API (`/tasks`)                | Steps 1–4       |
-|  6   | Azure Functions wrapper + Swagger   | Steps 1–5       |
-|  7   | pytest suite (local & mocked Azure) | Steps 1–6       |
-|  8   | JWT/EasyAuth security               | Steps 5–6       |
-|  9   | CI/CD pipeline                      | Steps 1–8       |
+|  3   | `Task` dataclass                    | Lecture 1       |
+|  4   | `@timed` decorator                  | Lectures 1–3    |
+|  5   | Flask API (`/tasks`)                | Lectures 1–4    |
+|  6   | Azure Functions wrapper + Swagger   | Lectures 1–5    |
+|  7   | pytest suite (local & mocked Azure) | Lectures 1–6    |
+|  8   | JWT/EasyAuth security               | Lectures 5–6    |
+|  9   | CI/CD pipeline                      | Lectures 1–8    |
 
 The proof of concept demonstrates a subset of the functional requirements from [requirements.md](requirements.md), including:
 - Board and status columns.
