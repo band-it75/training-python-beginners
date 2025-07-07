@@ -2,11 +2,12 @@
 
 Keep source contents consistent, starting from the first lecture to the last lecture. This means that source files and tests already created should be present in subsequent lectures. They can be enhanced, modified and updated when it makes sense, but then it should clearly be commented why.
 
-Every lesson contains multiple lecture files (for example `01-lecture-build-hello-world.md`).
+Every lesson contains multiple lecture files (for example `lecture-01-build-hello-world.md`).
 Each of these lecture files **must** include detailed, step-by-step instructions on
 which files and folders to create, the code to place in each file, and the
 reason for it. Apply this approach consistently across all lessons so that
 participants can follow along without guessing any implementation details.
+In each lecture file, start with an introduction on the topic of the lecture and relevant theory. 
 
 Provide inline comments in short example code blocks (like `types_example.py`)
 to explain the purpose of each line.
