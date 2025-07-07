@@ -23,5 +23,5 @@ An activated virtual environment and a `requirements.txt` ready for future lectu
 
 ### Lectures
 
-1. [01-lecture-create-venv.md](01-lecture-create-venv.md)
-2. [02-lecture-freeze-dependencies.md](02-lecture-freeze-dependencies.md)
+1. [lecture-01-create-venv.md](lecture-01-create-venv.md)
+2. [lecture-02-freeze-dependencies.md](lecture-02-freeze-dependencies.md)

@@ -26,6 +26,6 @@ Every push triggers a pipeline that tests the code and deploys the function app.
 
 ### Lectures
 
-1. [01-lecture-create-workflow-file.md](01-lecture-create-workflow-file.md)
-2. [02-lecture-create-azure-pipeline.md](02-lecture-create-azure-pipeline.md)
-3. [03-lecture-trigger-pipeline.md](03-lecture-trigger-pipeline.md)
+1. [lecture-01-create-workflow-file.md](lecture-01-create-workflow-file.md)
+2. [lecture-02-create-azure-pipeline.md](lecture-02-create-azure-pipeline.md)
+3. [lecture-03-trigger-pipeline.md](lecture-03-trigger-pipeline.md)

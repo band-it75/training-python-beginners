@@ -28,6 +28,6 @@ The API runs as an Azure Function locally with Swagger UI available.
 
 ### Lectures
 
-1. [01-lecture-install-packages.md](01-lecture-install-packages.md)
-2. [02-lecture-wrap-as-azure-function.md](02-lecture-wrap-as-azure-function.md)
-3. [03-lecture-run-locally.md](03-lecture-run-locally.md)
+1. [lecture-01-install-packages.md](lecture-01-install-packages.md)
+2. [lecture-02-wrap-as-azure-function.md](lecture-02-wrap-as-azure-function.md)
+3. [lecture-03-run-locally.md](lecture-03-run-locally.md)
