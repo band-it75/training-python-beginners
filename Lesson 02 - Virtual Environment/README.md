@@ -19,9 +19,9 @@ Isolate project dependencies so everyone works with the same package versions.
 
 ## Expected Outcome
 
-An activated virtual environment and a `requirements.txt` ready for future steps.
+An activated virtual environment and a `requirements.txt` ready for future lectures.
 
-### Steps
+### Lectures
 
-1. [01-create-venv.md](01-create-venv.md)
-2. [02-freeze-dependencies.md](02-freeze-dependencies.md)
+1. [lecture-01-create-venv.md](lecture-01-create-venv.md)
+2. [lecture-02-freeze-dependencies.md](lecture-02-freeze-dependencies.md)

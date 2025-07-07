@@ -23,8 +23,8 @@ Create a data representation of tasks that other components can build upon.
 
 A reusable `Task` class with automatic IDs and a `mark_done` method.
 
-### Steps
+### Lectures
 
-1. [01-create-task-class.md](01-create-task-class.md)
-2. [02-normalize-title.md](02-normalize-title.md)
-3. [03-add-mark-done.md](03-add-mark-done.md)
+1. [lecture-01-create-task-class.md](lecture-01-create-task-class.md)
+2. [lecture-02-normalize-title.md](lecture-02-normalize-title.md)
+3. [lecture-03-add-mark-done.md](lecture-03-add-mark-done.md)

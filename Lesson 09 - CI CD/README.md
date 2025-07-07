@@ -1,6 +1,6 @@
 # Lesson 09 – CI/CD
 
-The final step is to automate everything. A **GitHub Actions** or **Azure DevOps**
+The final lecture is to automate everything. A **GitHub Actions** or **Azure DevOps**
 pipeline will build the project, run the tests and deploy the Azure Function
 whenever you push to the `main` branch. Both solutions use a service principal
 stored as secrets. With CI/CD in place you can continuously deliver updates with
@@ -24,8 +24,8 @@ Automate testing and deployment so releases are repeatable and reliable.
 
 Every push triggers a pipeline that tests the code and deploys the function app.
 
-### Steps
+### Lectures
 
-1. [01-create-workflow-file.md](01-create-workflow-file.md)
-2. [02-create-azure-pipeline.md](02-create-azure-pipeline.md)
-3. [03-trigger-pipeline.md](03-trigger-pipeline.md)
+1. [lecture-01-create-workflow-file.md](lecture-01-create-workflow-file.md)
+2. [lecture-02-create-azure-pipeline.md](lecture-02-create-azure-pipeline.md)
+3. [lecture-03-trigger-pipeline.md](lecture-03-trigger-pipeline.md)

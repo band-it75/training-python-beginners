@@ -35,15 +35,15 @@ Running `python main.py` prints the greeting so students know their setup works.
 Use `setup-venv.ps1` to create a virtual environment and install requirements.
 After that, execute `run.ps1` to start the program.
 
-### Steps
+### Lectures
 
-1. [01-build-hello-world.md](01-build-hello-world.md)
-2. [02-basic-data-types.md](02-basic-data-types.md)
-3. [03-string-concat.md](03-string-concat.md)
-4. [04-basic-math.md](04-basic-math.md)
-5. [05-time-calculations.md](05-time-calculations.md)
-6. [06-task-duration.md](06-task-duration.md)
-7. [07-schedule-start.md](07-schedule-start.md)
+1. [lecture-01-build-hello-world.md](lecture-01-build-hello-world.md)
+2. [lecture-02-basic-data-types.md](lecture-02-basic-data-types.md)
+3. [lecture-03-string-concat.md](lecture-03-string-concat.md)
+4. [lecture-04-basic-math.md](lecture-04-basic-math.md)
+5. [lecture-05-time-calculations.md](lecture-05-time-calculations.md)
+6. [lecture-06-task-duration.md](lecture-06-task-duration.md)
+7. [lecture-07-schedule-start.md](lecture-07-schedule-start.md)
 
-Each step file provides detailed instructions on how to create the
+Each lecture file provides detailed instructions on how to create the
 corresponding Python module and why it is needed.

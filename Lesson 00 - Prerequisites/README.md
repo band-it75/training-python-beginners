@@ -19,14 +19,16 @@ for the rest of the course.
 
 ## Personas Involved
 
-No end-user personas are involved in this setup step.
+No end-user personas are involved in this setup lecture.
 
 ## Expected Outcome
 
 All required tools are installed and verified so coding can begin immediately.
 
-1. [Install VSCode](01-install-vscode.md)
-2. [Install Python 3.11](02-install-python.md)
-3. [Install Git](03-install-git.md)
+1. [Install VSCode](lecture-01-install-vscode.md)
+2. [Install Python 3.11](lecture-02-install-python.md)
+3. [Install Git](lecture-03-install-git.md)
 4. Configure Git with [setup-git.ps1](setup-git.ps1)
 5. Verify the setup using [verify-prerequisites.ps1](source/tests/verify-prerequisites.ps1)
+6. [Python Indentation](04-lecture-python-indentation.md)
+7. [Write and Run a Simple Script](05-lecture-basic-script.md)

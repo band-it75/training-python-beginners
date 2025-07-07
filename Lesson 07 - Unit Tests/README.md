@@ -24,8 +24,8 @@ Introduce automated testing to ensure the application behaves as expected.
 
 Tests run successfully and catch regressions during development.
 
-### Steps
+### Lectures
 
-1. [01-install-testing-tools.md](01-install-testing-tools.md)
-2. [02-write-tests.md](02-write-tests.md)
-3. [03-run-tests.md](03-run-tests.md)
+1. [lecture-01-install-testing-tools.md](lecture-01-install-testing-tools.md)
+2. [lecture-02-write-tests.md](lecture-02-write-tests.md)
+3. [lecture-03-run-tests.md](lecture-03-run-tests.md)

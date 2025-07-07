@@ -24,8 +24,8 @@ Make the task model accessible over HTTP so other apps can use it.
 
 A running Flask server exposing `/tasks` endpoints locally.
 
-### Steps
+### Lectures
 
-1. [01-install-flask.md](01-install-flask.md)
-2. [02-create-flask-api.md](02-create-flask-api.md)
-3. [03-run-server.md](03-run-server.md)
+1. [lecture-01-install-flask.md](lecture-01-install-flask.md)
+2. [lecture-02-create-flask-api.md](lecture-02-create-flask-api.md)
+3. [lecture-03-run-server.md](lecture-03-run-server.md)
