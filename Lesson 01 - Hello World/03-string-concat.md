@@ -27,6 +27,14 @@ Learn different ways to join text together.
    ```
    The helper validates the input and formats the name consistently.
 
+4. Update `main.py` to use the new `greet` helper instead of calling
+   `normalize_title` directly:
+   ```python
+   from src.greetings import greet
+
+   print(greet("world"))
+   ```
+
 ## Why this step?
 
 String concatenation and f-strings are used frequently when producing

@@ -11,6 +11,9 @@ participants can follow along without guessing any implementation details.
 Provide inline comments in short example code blocks (like `types_example.py`)
 to explain the purpose of each line.
 
+Whenever a step introduces a new module or function, add instructions to
+modify `main.py` so running `python main.py` demonstrates the new code.
+
 
 ## Tests
 

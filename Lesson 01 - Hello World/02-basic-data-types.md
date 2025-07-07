@@ -27,8 +27,18 @@ Explore how Python represents common values.
        """Return sample values and their types."""
        if values is None:
            values = [1, "Open Store", True, [1.0, 2.5, 3.0], {1: "Open Store"}]
-return [(v, type(v)) for v in values]
-```
+   return [(v, type(v)) for v in values]
+   ```
+
+3. Update `main.py` to exercise the new helper so you can run the
+   lesson after this step. Import `get_value_types` and print the
+   returned pairs:
+   ```python
+   from src.types_example import get_value_types
+
+   for value, typ in get_value_types():
+       print(value, typ)
+   ```
 
 ## Why this step?
 

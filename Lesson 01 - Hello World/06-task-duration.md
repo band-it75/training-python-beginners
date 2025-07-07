@@ -26,7 +26,18 @@ Format a time delta into minutes and seconds.
        minutes, secs = divmod(seconds, 60)
        return f"{int(minutes)}m {int(secs)}s"
    ```
-It calls `elapsed_seconds` from the previous step and validates the result.
+ It calls `elapsed_seconds` from the previous step and validates the result.
+
+3. Use this helper in `main.py` so it shows a formatted duration when you
+   run the script:
+   ```python
+   from datetime import datetime, timedelta
+   from src.time_example import format_duration
+
+   start = datetime.now()
+   end = start + timedelta(seconds=1)
+   print(f"Duration: {format_duration(start, end)}")
+   ```
 
 ## Why this step?
 

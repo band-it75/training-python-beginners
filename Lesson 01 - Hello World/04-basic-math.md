@@ -21,6 +21,14 @@ Introduce a quick calculation using integers.
    ```
    Later steps import this helper instead of repeating the math.
 
+3. Update `main.py` to print the result of `remaining_tasks` so the
+   example can be run:
+   ```python
+   from src.math_example import remaining_tasks
+
+   print("Remaining tasks:", remaining_tasks(5, 2))
+   ```
+
 ## Why this step?
 
 Basic arithmetic often forms the core of more complex logic. Wrapping the
