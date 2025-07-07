@@ -26,6 +26,6 @@ Tests run successfully and catch regressions during development.
 
 ### Lectures
 
-1. [01-lecture-install-testing-tools.md](01-lecture-install-testing-tools.md)
-2. [02-lecture-write-tests.md](02-lecture-write-tests.md)
-3. [03-lecture-run-tests.md](03-lecture-run-tests.md)
+1. [lecture-01-install-testing-tools.md](lecture-01-install-testing-tools.md)
+2. [lecture-02-write-tests.md](lecture-02-write-tests.md)
+3. [lecture-03-run-tests.md](lecture-03-run-tests.md)

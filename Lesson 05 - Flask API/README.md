@@ -26,6 +26,6 @@ A running Flask server exposing `/tasks` endpoints locally.
 
 ### Lectures
 
-1. [01-lecture-install-flask.md](01-lecture-install-flask.md)
-2. [02-lecture-create-flask-api.md](02-lecture-create-flask-api.md)
-3. [03-lecture-run-server.md](03-lecture-run-server.md)
+1. [lecture-01-install-flask.md](lecture-01-install-flask.md)
+2. [lecture-02-create-flask-api.md](lecture-02-create-flask-api.md)
+3. [lecture-03-run-server.md](lecture-03-run-server.md)

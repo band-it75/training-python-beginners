@@ -27,5 +27,5 @@ Decorated functions log how long they take to run without modifying their code.
 
 ### Lectures
 
-1. [01-lecture-implement-timed-decorator.md](01-lecture-implement-timed-decorator.md)
-2. [02-lecture-apply-decorator.md](02-lecture-apply-decorator.md)
+1. [lecture-01-implement-timed-decorator.md](lecture-01-implement-timed-decorator.md)
+2. [lecture-02-apply-decorator.md](lecture-02-apply-decorator.md)
